@@ -6,3 +6,12 @@ a.navbar-brand, a.nav-link {
   font-size: 1.0em;
   text-decoration: underline;
 }
+
+input.form-control {
+  border: 1px solid;
+}
+
+button.btn {
+  box-shadow: 10px 10px;
+  border: 1px solid;
+}
