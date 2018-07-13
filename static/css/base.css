@@ -1,0 +1,8 @@
+.header {
+  background-color: #eaeaea;
+}
+a.navbar-brand, a.nav-link {
+  color: #007bff;
+  font-size: 1.0em;
+  text-decoration: underline;
+}
