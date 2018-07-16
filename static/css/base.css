@@ -34,8 +34,13 @@ div.app-form {
   border: 2px solid;
 }
 
-a.app-link {
+a.app-link1 {
   font-size: 1.0em;
   color: black;
+}
+
+a.app-link2 {
+  font-size: 1.0em;
+  color: grey;
 }
 
