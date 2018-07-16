@@ -49,7 +49,7 @@
 
 
 <div class="container">
-  <div class="row align-items-center">
+  <div class="row align-items-center mt-4">
     <div class="col-sm-3 col-md-offset-1">
         <span>
            Участники в Новосибирске:
@@ -62,13 +62,83 @@
       <a class="members-link" href="#">25 производителей</a>
     </div>
   </div>
-  <div class="col-10 ml-auto mr-auto text-center mt-5 pt-5" style="width: 40%">
+
+  <div class="col-10 ml-auto mr-auto text-center mt-5" style="width: 40%">
     <h2>Вам позвонят лучшие поставщики Новосибирска</h2>
+  </div>
+
+  <div class="container">
+    <div class="app-form row ml-auto mr-auto" style="width: 80%">
+      <form action="#" style="width: 140%">
+        <div class="ml-3">
+          <h4> Я ищу </h4>
+        </div>
+        <div class="col ml-5 pl-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Check1">
+            <label class="form-check-label" for="Check1">
+              ЖБИ <span class="pale-font">(фундаментальные блоки ФБС, плиты перекрытий, перемычки)</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Check2">
+            <label class="form-check-label" for="Check2">
+              Кирпич / Газобетон / Брус
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="Check3">
+            <label class="form-check-label" for="Check3">
+              Бетон / Раствор
+            </label>
+          </div>
+        </div>
+        <div class="col ml-5 pl-3 mb-2 mt-2">
+          <a class="app-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            Новосибирск и область
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Москва</a>
+            <a class="dropdown-item" href="#">Челябинск</a>
+            <a class="dropdown-item" href="#">Уфа</a>
+          </div>
+        </div>
+        <div class="row ml-2 mr-2">
+          <div class="col-sm-3 col-md-2">
+            <label class="col-form-label" for="app-desc">Описание *</label>
+          </div>
+          <div class="col-sm-9 col-md-10">
+            <input class="col-12 form-control" id="app-desc" name="description">
+            <p class="text-secondary">
+              Пример: нужно фбс 24.4.6 50 шт плиты пк 20 ПК 60-20-12 доставка в Новолуговое
+            </p>
+          </div>
+        </div>
+        <div class="row ml-2 mr-2">
+          <div class="col-sm-3 col-md-2">
+            <label class="col-form-label" for="app-tel">Телефон *</label>
+          </div>
+          <div class="col-sm-3 col-md-4">
+            <input class="col-12 form-control" id="app-tel" name="phone">
+          </div>
+          <div class="col-sm-3 col-md-2">
+            <label class="col-form-label" for="app-name">Имя *</label>
+          </div>
+          <div class="col-sm-3 col-md-4">
+            <input class="col-12 form-control" id="app-name" name="name">
+          </div>
+        </div>
+        <div class="text-center mb-3 mt-3">
+          <button type="submit" class="btn btn-light btn-sm small-button">Опубликовать заявку</button>
+        </div>
+      </form>
+    </div>
   </div>
 </div>
 
 
-<footer class="page-footer" style="background-color: #eaeaea;">
+<footer class="page-footer" style="background-color: #eaeaea; border: 2px solid;">
   <div class="text-center">
     <h3>Вы поставщик?</h3>
   </div>

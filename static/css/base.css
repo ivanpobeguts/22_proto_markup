@@ -1,13 +1,14 @@
 .header {
   background-color: #eaeaea;
 }
+
 a.navbar-brand, a.nav-link {
   /*color: #007bff;*/
   font-size: 1.0em;
   text-decoration: underline;
 }
 
-a.members-link{
+a.members-link {
   text-decoration: underline;
   font-size: 1.4em;
   color: black;
@@ -20,4 +21,14 @@ input.form-control {
 button.btn {
   box-shadow: 10px 10px;
   border: 1px solid;
+}
+
+div.app-form {
+  background-color: #eaeaea;
+  border: 2px solid;
+}
+
+a.app-link {
+  font-size: 1.0em;
+  color: black;
 }
