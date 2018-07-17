@@ -47,13 +47,11 @@ a.app-link2 {
 a.carousel-control-next {
   z-index: 100;
   margin-right: -70px;
-    /*background-color: black;*/
   color: black;
 }
 a.carousel-control-prev {
   z-index: 100;
   margin-left: -70px;
-    /*background-color: black;*/
   color: black;
 }
 

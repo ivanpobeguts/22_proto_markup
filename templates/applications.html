@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar justify-content-between text-secondary">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+    <span class="navbar-text">
+    раздел:
+    </span>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle app-link2" href="#" id="navbarDropdownMenuLink1" role="button"
+           data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+          Все
+        </a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+    <span class="navbar-text">
+    регион:
+    </span>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle app-link2" href="#" id="navbarDropdownMenuLink2" role="button"
+           data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+          Новосибирск и область
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+          <a class="dropdown-item" href="#">Москва</a>
+          <a class="dropdown-item" href="#">Челябинск</a>
+          <a class="dropdown-item" href="#">Уфа</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<hr>
+{% for number in range(5) %}
+<div>
+  <div class="col-12">
+    <div class="row justify-content-between text-secondary">
+      <span>вчера, в 21:30</span>
+      <span><i class="fa fa-star"></i>в закладки</span>
+    </div>
+  </div>
+  <div>
+    <span>60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.<br>Алексей</span>
+  </div>
+  <div class="row mt-2">
+    <button type="button" class="btn btn-sm" data-toggle="collapse" data-target="#number">Показать телефон</button>
+    <span class="navbar-text ml-2">12 просмотров</span>
+  </div>
+</div>
+<hr>
+{% endfor %}
