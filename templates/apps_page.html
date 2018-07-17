@@ -1,13 +1,22 @@
 {% extends 'base.html' %}
+{% block title %}Заявки{% endblock %}
 {% block content %}
-<a href="index.html">
-  <i class="fa fa-home fa-4x" href="index.html" aria-hidden="true"></i>
+<a class="home_link" href="index.html">
+  <i class="fa fa-home fa-4x ml-5 mt-2 mb-2" href="index.html" aria-hidden="true"></i>
 </a>
-<div>
-  <div class="col-10 ml-auto mr-auto mt-5" style="width: 40%">
+
+<div class="container">
+  <div class="col-10" style="width: 40%">
     <h2>Заявки</h2>
   </div>
   {% include 'applications.html' %}
+
+  <div class="text-center mb-3 mt-4">
+    <a href="apps_page.html">
+      <button type="submit" class="app-button btn btn-outline-dark btn-circle">Показать ещё</button>
+    </a>
+  </div>
+
 </div>
 
 {% endblock %}

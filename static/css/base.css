@@ -14,6 +14,10 @@ a.members-link {
   color: black;
 }
 
+a.home_link {
+  color: black;
+}
+
 input.form-control {
   border: 1px solid;
 }
