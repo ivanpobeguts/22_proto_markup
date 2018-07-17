@@ -1,6 +1,18 @@
 # Suppliers in Novosibirsk
 
-[TODO. There will be project description]
+This is static [site](https://ivanpobeguts.github.io/22_proto_markup/static/index.html) for Novosibirsk suppliers.
+
+# How to
+
+First, install dependencies with pip:
+```bash
+pip install -r requirements.txt # alternatively try pip3
+```
+
+To render the site just launch **build.py** script:
+```bash
+$ python build.py
+```
 
 # Project Goals
 
