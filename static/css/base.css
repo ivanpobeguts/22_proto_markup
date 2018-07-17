@@ -2,8 +2,12 @@
   background-color: #eaeaea;
 }
 
+.page-footer {
+  background-color: #eaeaea;
+  border: 2px solid;
+}
+
 a.navbar-brand, a.nav-link {
-  /*color: #007bff;*/
   font-size: 1.0em;
   text-decoration: underline;
 }

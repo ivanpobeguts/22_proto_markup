@@ -16,17 +16,17 @@
     </div>
   </div>
 
-  <div class="col-10 ml-auto mr-auto text-center mt-5" style="width: 40%">
+  <div class="col-md-5 ml-auto mr-auto text-center mt-5">
     <h2>Вам позвонят лучшие поставщики Новосибирска</h2>
   </div>
 
   <div class="container">
     <div class="app-form row ml-auto mr-auto">
-      <form action="#" style="width: 140%">
-        <div class="ml-3">
+      <form class="col-12" action="#">
+        <div>
           <h4> Я ищу </h4>
         </div>
-        <div class="col ml-5 pl-3">
+        <div class="col pl-5">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="Check1">
             <label class="form-check-label" for="Check1">
@@ -46,7 +46,7 @@
             </label>
           </div>
         </div>
-        <div class="col ml-5 pl-3 mb-2 mt-2">
+        <div class="col pl-5 mb-2 mt-2">
           <a class="app-link1 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false">
             Новосибирск и область
@@ -58,7 +58,7 @@
           </div>
         </div>
         <div class="form-group row mr-5">
-          <label for="app-desc" class="col-lg-2 col-md-3 col-auto text-right col-form-label pr-0">Описание
+          <label for="app-desc" class="col-auto col-form-label pr-0">Описание
             *</label>
           <div class="col-xl-10 col-md-9 col-12">
             <input type="text" class="form-control" id="app-desc">
@@ -68,12 +68,12 @@
           </div>
         </div>
         <div class="form-group row mr-5">
-          <label for="app-phone" class="col-lg-2 col-md-3 col-auto text-right col-form-label pr-0">Телефон
+          <label for="app-phone" class="col-auto col-form-label pr-0">Телефон
             *</label>
-          <div class="col-lg-4 col-md-9 col-12 mb-md-3">
+          <div class="col-md-4 ml-2">
             <input type="text" class="form-control" id="app-phone">
           </div>
-          <label for="app-name" class="col-lg-2 col-md-3 col-auto text-right col-form-label pr-0">Имя *</label>
+          <label for="app-name" class="col-lg-2 col-md-3 col-auto text-right col-form-label pr-0">Имя</label>
           <div class="col-lg-4 col-md-9 col-12">
             <input type="text" class="form-control" id="app-name">
           </div>
@@ -84,7 +84,7 @@
       </form>
     </div>
 
-    <div class="col-10 ml-auto mr-auto text-center mt-5" style="width: 40%">
+    <div class="col-md-5 ml-auto mr-auto text-center mt-5">
       <h2>Свежие заявки</h2>
     </div>
     {% include 'applications.html' %}
