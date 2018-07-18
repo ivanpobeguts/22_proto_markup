@@ -47,11 +47,11 @@
           </div>
         </div>
         <div class="col pl-5 mb-2 mt-2">
-          <a class="app-link1 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+          <a class="app-link1 dropdown-toggle" href="#" id="index_navbarDropdownMenuLink" role="button" data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false">
             Новосибирск и область
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-menu" aria-labelledby="index_navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Москва</a>
             <a class="dropdown-item" href="#">Челябинск</a>
             <a class="dropdown-item" href="#">Уфа</a>
@@ -90,9 +90,7 @@
     {% include 'applications.html' %}
 
     <div class="text-center mb-3 mt-4">
-      <a href="apps_page.html">
-        <button type="submit" class="app-button btn btn-outline-dark btn-circle">Посмотреть все заявки</button>
-      </a>
+        <button type="submit" class="app-button btn btn-outline-dark btn-circle" onclick="location.href='apps_page.html';">Посмотреть все заявки</button>
     </div>
 
     <div class="row align-items-center">
@@ -101,7 +99,7 @@
           <div class="row carousel-item active">
             <div class="row">
               <div class="col-3 ml-4 mt-1">
-                <img src="../static/img/No-Profile.png">
+                <img src="{{ STATIC_URL }}/img/No-Profile.png" alt="Profile picture">
               </div>
               <div class=" col-8">
                 <h5 class="mt-0">Кирилл, 29 лет, г. Барабинск</h5>
@@ -113,7 +111,7 @@
           <div class="row carousel-item">
             <div class="row">
               <div class="col-3 ml-4 mt-1">
-                <img src="{{ STATIC_URL }}/img/No-Profile.png">
+                <img src="{{ STATIC_URL }}/img/No-Profile.png" alt="Profile picture">
               </div>
               <div class=" col-8">
                 <h5 class="mt-0">Антон, 30 лет, г. Новосибирск</h5>
